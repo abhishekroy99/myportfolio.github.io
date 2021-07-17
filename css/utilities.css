@@ -1,0 +1,159 @@
+.text-primary{
+    color: #ff7f50;
+}
+
+.text-secondry{
+    color:#fff ;
+}
+
+/* Button */
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-primary, .bg-primary {
+    background: #ff7f50;
+    color: #fff;
+}
+
+.btn-secondary, .bg-secondry {
+    background: #808000;
+    color: #fff;
+}
+
+.btn-dark, .bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.btn-light, .bg-light{
+    background: #fff;
+    color: #333;
+}
+.btn-outline{
+    background: transparent;
+    border: 1px solid #f4f4f4;
+}
+
+/* Flex Items */
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
+.footer.flex-reverse{
+    flex-direction: row-reverse;
+}
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.flex-items-about{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+}
+
+/* Flex Items */
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+/* direct div child of flex-items */
+.flex-items > div {
+    padding: 20px;
+
+}
+
+.flex-columns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flex-columns .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flex-columns .column .column-1,
+.flex-columns .column .column-2{
+    height: 100%;
+}
+ .flex-columns img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ /* .flex-columns.flex-reverse .column-2{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 100px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 100px;
+} */
+ .flex-columns .column-2{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     padding: 20px;
+     /* border-bottom-left-radius: 100px;
+     border-top-left-radius: 100px; */
+     border-radius: 10px;
+}
+
+.flex-columns h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.flex-columns h4{
+    margin-bottom: 10px;
+}
+.flex-columns p{
+    margin-right: 20px;
+}
+/* section header */
+.section-header{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-header h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.section-padding{
+    padding: 20px 20px 40px;
+}
+/* flex grid */
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0  4px;
+}
